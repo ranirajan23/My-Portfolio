@@ -1,0 +1,178 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set the font for the entire page */
+body {
+    background-color: #bdce9a;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main sections */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the project items */
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Media queries for responsiveness (customize as needed) */
+@media (max-width: 768px) {
+    #header-content {
+        flex-direction: column;
+    }
+    header h1 {
+        margin-top: 10px;
+    }
+}
+/* Style the "About Me" section */
+#about {
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 16px;
+}
+
+/* Style the "Experience" section */
+#experience {
+    background-color: #fff;
+}
+
+#experience h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#experience ul {
+    list-style-type: none;
+}
+
+#experience li {
+    margin-bottom: 20px;
+}
+
+#experience h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#experience p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Style the "Skills" section */
+#skills {
+    background-color: #fff;
+}
+
+#skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Media queries for responsiveness (customize as needed) */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
